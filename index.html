@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derick Rosa - Portfólio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">INÍCIO</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">SOBRE</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">PROJETOS</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">CONTATO</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+        <div id="h-cabecalho">
+            <img src="https://1drv.ms/i/c/ffb4adad4945180e/IQR6OF03N-CUS4C1NkuDdAMHAXAkugcO0vgF2kEx0dGCbX4?width=1024" alt="Foto de Derick Rosa" class="foto-perfil">
+            <h1 id="nome">Derick Rosa</h1>
+            <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+            <div id="links">
+                <a href="https://www.instagram.com/derickrosadev" class="links"><i class="fab solid fa-instagram"> Instagram</i></a>
+                <a href="https://github.com/derickdarosa" class="links"><i class="fab solid fa-github">  GitHub</i></a>
+            </div>
+        </div>
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure exercitationem eaque, incidunt minima ducimus dolor cupiditate fugit facilis quasi ipsa itaque, qui illo. Cupiditate magnam ea harum amet quia iusto.
+            </p>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <h2 class="text-imagem">EM DESENVOLVIMENTO</h2>
+                <img src="https://1drv.ms/i/c/ffb4adad4945180e/IQRiSYDc8kveQpXnXIaFgpZ7AW9ZcEqOetlz1rWtUOb8WOU?width=1024" alt="" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto 1</h3>
+                    <p class="paragrafo-projetos">Info do primeiro projeto.</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <h2 class="text-imagem">EM DESENVOLVIMENTO</h2>
+                <img src="https://1drv.ms/i/c/ffb4adad4945180e/IQRiSYDc8kveQpXnXIaFgpZ7AW9ZcEqOetlz1rWtUOb8WOU?width=1024" alt="" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto 2</h3>
+                    <p class="paragrafo-projetos">Info do segundo projeto.</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <h2 class="text-imagem">EM DESENVOLVIMENTO</h2>
+                <img src="https://1drv.ms/i/c/ffb4adad4945180e/IQRiSYDc8kveQpXnXIaFgpZ7AW9ZcEqOetlz1rWtUOb8WOU?width=1024" alt="" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto 3</h3>
+                    <p class="paragrafo-projetos">Info do terceiro projeto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" maxlength="100" id="nomeForm" required>
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem" maxlength="320" rows="4" id="mensagem" required></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
+    <p class="copyright">&#169; TODOS OS DIREITOS RESERVADOS - Derick Rosa Dev</p>
+    <script src="./index.js"></script>
+</body>
+</html>
